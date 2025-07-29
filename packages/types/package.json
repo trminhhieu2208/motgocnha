@@ -1,0 +1,24 @@
+{
+  "author": "trminhhieu",
+  "description": "Các type dùng chung toàn hệ thống cho dự án motgocnha",
+  "exports": {
+    ".": {
+      "import": "./src/index.ts",
+      "require": "./src/index.ts"
+    }
+  },
+  "keywords": [
+    "types",
+    "shared",
+    "motgocnha"
+  ],
+  "license": "MIT",
+  "main": "src/index.ts",
+  "name": "@motgocnha/types",
+  "packageManager": "pnpm@10.13.1",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "type": "module",
+  "version": "0.0.1"
+}

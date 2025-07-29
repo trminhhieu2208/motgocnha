@@ -1,0 +1,29 @@
+{
+  "author": "trminhhieu",
+  "dependencies": {
+    "@prisma/client": "^6.13.0",
+    "prisma": "^6.13.0"
+  },
+  "description": "Cơ sở dữ liệu cho motgocnha",
+  "exports": {
+    ".": {
+      "import": "./src/index.ts",
+      "require": "./src/index.ts"
+    }
+  },
+  "keywords": [
+    "database",
+    "prisma",
+    "motgocnha"
+  ],
+  "license": "MIT",
+  "main": "./src/index.ts",
+  "name": "@motgocnha/db",
+  "packageManager": "pnpm@10.13.1",
+  "scripts": {
+    "generate": "prisma generate",
+    "seed": "ts-node prisma/seed.ts"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}

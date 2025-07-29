@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"],
+      "@motgocnha/types/*": ["packages/types/src/*"],
+      "@motgocnha/ui/*": ["packages/ui/src/*"],
+      "@motgocnha/utils/*": ["packages/utils/src/*"]
+    }
+  }
+}

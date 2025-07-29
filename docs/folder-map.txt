@@ -1,0 +1,96 @@
+.
+├── .env
+├── .gitignore
+├── apps
+│   ├── server
+│   │   ├── .prettierrc
+│   │   ├── eslint.config.mjs
+│   │   ├── nest-cli.json
+│   │   ├── package.json
+│   │   ├── src
+│   │   │   ├── app
+│   │   │   │   ├── app.controller.ts
+│   │   │   │   ├── app.module.ts
+│   │   │   │   └── app.service.ts
+│   │   │   └── main.ts
+│   │   ├── test
+│   │   │   ├── app
+│   │   │   │   └── app.controller.spec.ts
+│   │   │   └── e2e
+│   │   │       ├── app.e2e-spec.ts
+│   │   │       └── jest-e2e.json
+│   │   ├── tsconfig.build.json
+│   │   └── tsconfig.json
+│   └── web
+│       ├── admin
+│       │   ├── eslint.config.mjs
+│       │   ├── next-env.d.ts
+│       │   ├── next.config.ts
+│       │   ├── package.json
+│       │   ├── postcss.config.mjs
+│       │   ├── public
+│       │   │   ├── file.svg
+│       │   │   ├── globe.svg
+│       │   │   ├── next.svg
+│       │   │   ├── vercel.svg
+│       │   │   └── window.svg
+│       │   ├── src
+│       │   │   └── app
+│       │   │       ├── favicon.ico
+│       │   │       ├── globals.css
+│       │   │       ├── layout.tsx
+│       │   │       └── page.tsx
+│       │   └── tsconfig.json
+│       └── client
+│           ├── eslint.config.mjs
+│           ├── next-env.d.ts
+│           ├── next.config.ts
+│           ├── package.json
+│           ├── postcss.config.mjs
+│           ├── public
+│           │   ├── file.svg
+│           │   ├── globe.svg
+│           │   ├── next.svg
+│           │   ├── vercel.svg
+│           │   └── window.svg
+│           ├── src
+│           │   └── app
+│           │       ├── favicon.ico
+│           │       ├── globals.css
+│           │       ├── layout.tsx
+│           │       └── page.tsx
+│           └── tsconfig.json
+├── docs
+│   └── folder-map.txt
+├── environment
+│   ├── .env.development
+│   └── .env.production
+├── package.json
+├── packages
+│   ├── db
+│   │   ├── package.json
+│   │   ├── prisma
+│   │   │   ├── migrations
+│   │   │   ├── schema.prisma
+│   │   │   └── seed.ts
+│   │   └── src
+│   │       └── index.ts
+│   ├── types
+│   │   ├── package.json
+│   │   └── src
+│   │       └── index.ts
+│   ├── ui
+│   │   ├── package.json
+│   │   └── src
+│   │       └── index.ts
+│   └── utils
+│       ├── package.json
+│       └── src
+│           └── index.ts
+├── pnpm-lock.yaml
+├── pnpm-workspace.yaml
+├── README.md
+├── tsconfig.base.json
+└── turbo.json
+
+30 directories, 64 files

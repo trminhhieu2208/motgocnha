@@ -1,0 +1,28 @@
+{
+  "author": "trminhhieu",
+  "description": "Thư mục gốc cho dự án motgocnha",
+  "devDependencies": {
+    "turbo": "^2.5.5"
+  },
+  "keywords": [
+    "motgocnha",
+    "monorepo",
+    "typescript",
+    "pnpm",
+    "next.js",
+    "nestjs",
+    "prisma",
+    "postgres"
+  ],
+  "license": "MIT",
+  "name": "motgocnha",
+  "packageManager": "pnpm@10.13.1",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "folder-map": "tree -a -L 10 -I 'node_modules|.git|dist|.next|generated' > docs/folder-map.txt",
+    "lint": "turbo run lint",
+    "test": "turbo run test"
+  },
+  "version": "0.0.1"
+}

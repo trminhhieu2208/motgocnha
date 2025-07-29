@@ -1,0 +1,24 @@
+{
+  "author": "trminhhieu",
+  "description": "Các hàm tiện ích dùng chung toàn bộ dự án motgocnha",
+  "exports": {
+    ".": {
+      "import": "./src/index.ts",
+      "require": "./src/index.ts"
+    }
+  },
+  "keywords": [
+    "utils",
+    "helpers",
+    "motgocnha"
+  ],
+  "license": "MIT",
+  "main": "src/index.ts",
+  "name": "@motgocnha/utils",
+  "packageManager": "pnpm@10.13.1",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
